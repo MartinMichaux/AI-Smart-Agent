@@ -1,0 +1,442 @@
+// U stands for User input (Don't use punctuation)
+// B stands for Bot output (Punctuation allowed, more than one possible answer allowed)
+// U is the question/request from the User, B is/are the answers from our Bot
+// If U ask for specific task (like "weather") then use a number as code to launch the method (doesn't work yet !!!)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// SMALL TALK
+/////////////////////////////////////////////////////////////////////////////////////////
+U Hi
+B Hey!
+U Hey
+B Hi!
+
+U Hello
+B Hi, how can I help you ?(if you wish to know what I can do, please write "help" in the chat)
+
+U How are you doing
+U How are you
+B Very well, what about you
+U I am fine thanks
+B There is no problem, how can I help you ?(if you wish to know what I can do, please write "help" in the chat)
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// HELP THE USER
+/////////////////////////////////////////////////////////////////////////////////////////
+U Need Help
+B Ask me what I can do, for example you can check the weather by typing "Weather" or your UM schedule by typing "Next Lecture", "This week Lecture".
+B Ask me what I can do
+U What can you do
+B I can show you the weather (type "Weather") or your UM schedule (type "this week lecture"). If you wish to know what I can do, please write "help" in the chat
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// SKILLS WITHOUT VARIABLES
+/////////////////////////////////////////////////////////////////////////////////////////
+
+U Weather
+U Is it sunny
+U Is it rainy
+U sunny
+U rainy
+U How is the weather
+U What is the weather like
+U Check the weather
+U Give how the weather is
+U What is the weather today
+U What is the temperature
+U Will it rain
+U Do I need an umbrella today
+B 1
+
+U My next lecture
+U Next lecture
+U Lecture today
+U When do I have my next lecture
+U What is my next Lecture
+U Which lecture do I have today
+U Which is my next class
+U What course do I have next
+B 10
+U Lecture week
+U What are my lectures this week
+U Which lecture do I have this week
+U My lectures this week
+U What do I have this week
+U This week planning
+U What is my schedule for this week
+U What classes do I have this week
+B 11
+U Lecture month
+U My lectures this month
+U This month planning
+U What do I have this month
+U What are my lectures this month
+U Which lecture do I have this month
+U What is my schedule for this month
+U What classes do I have this month
+B 12
+
+U Alarm
+U Set an alarm
+U Get my alarm
+U Get the alarm
+U See the alarm
+U Add an alarm
+U Show me the alarm
+U Open alarm app
+U Can you set an alarm
+U What are my current alarms
+B 14
+U Time
+U What time is it
+U Show me the clock
+U What's the time
+U Get the clock
+U See the clock
+U Add a clock
+U Open the clock app
+U What time is it
+U How late is it
+B 15
+U Time-zone
+U What are the time-zone IDs
+U What time-zones can I add to the clock
+U What areas can I add to the clock
+U Can I see the possible time-zones
+U Look at the time-zones
+U What are the time-zones
+U Tell me every time-zones
+U Can you show me all avalable time-zones
+U What time zones do you cover
+B 16
+U Set timer
+U Get the timer
+U See the timer
+U Add a timer
+U Show me the timer
+U Open the timer app
+U Can you show me my timer
+U Can I set a timer
+B 17
+U Start timer
+U Begin a timer
+U I want to begin a timer
+U Launch the timer
+U Can you start a timer
+B 18
+U I want to pause the timer
+U Please pause the timer
+U Pause timer
+U Set timer on pause
+U Can you pause the timer
+B 19
+U I want to resume the timer
+U Please resume the timer
+U Resume timer
+U Restart timer
+U Can you resume the timer
+B 20
+U Cancel timer
+U Undo the timer
+U I want to cancel the timer
+U Please cancel the timer
+U Can you cancel the timer
+B 21
+U Get stopwatch
+U See stopwatch
+U Add stopwatch
+U Show stopwatch
+U Open stopwatch
+U Can you show me the stopwatch
+U Do you have a stopwatch ready
+B 22
+U Set a stopwatch
+U Start a stopwatch
+U Start the stopwatch
+U Set the stopwatch
+U Start stopwatch
+U Launch stopwatch
+U Begin a stopwatch
+U I want to begin a stopwatch
+U Can you start the stopwatch
+B 23
+U Can you pause the stopwatch
+U Pause stopwatch
+U Set stopwatch on pause
+U I want to pause the stopwatch
+U Please pause the stopwatch
+B 24
+U Can you lap the stopwatch
+U Lap stopwatch
+U Add tour stopwatch
+U I want to lap the stopwatch
+U Please lap the stopwatch
+B 25
+U Reset stopwatch
+U Cancel stopwatch
+U I want to reset the stopwatch
+U Please reset the stopwatch
+U Can you reset the stopwatch
+B 26
+
+U Add skill
+U Skill editor
+U Create a skill
+U Can we create a skill
+B 31
+U New rule
+U Add Rule
+U I want to add rules
+U Add skill
+U Can we create a new rule
+B 32
+U Edit skill
+U Skill editor
+U Change a skill
+U Edit a skill
+U Can we edit a skill
+B 33
+U Change rule
+U Edit rule
+U I want to modify rules
+U Can we edit a rule
+B 34
+
+U Look up
+B 40
+
+U Listen music
+U Play music
+U Play song
+U Listen song
+U Watch video
+U Music
+U Play music
+U Make me listen to music/video
+U Put some music/video
+U Can you play a video please
+U Can you play a song please
+B 50
+
+U Change music
+U I want to change the music/video
+U Please change the music/video
+U Skip music/video
+U Play next music/video
+U Play previous music/video
+U Can you play something else
+U Can you play another song
+B 51
+
+U Pause music
+U I want to pause the music/video
+U Please pause the music/video
+U Can you pause please
+B 52
+
+U Stop music
+U I want to stop the music/video
+U Please stop the music/video
+U End the music/video
+U Can you stop playing
+B 53
+
+
+U Calendar
+U See the calendar
+U Add a reminder
+U Open the calendar
+U Show me my calendar
+U Can you show me my Calendar
+U What's in my calendar
+B 60
+
+U Google
+U Research
+U Open google
+B 71
+
+U Moon
+U Map of Moon
+U Map Moon
+B 74
+
+U Personal info
+U Change my personal info
+U I want to change my profile info
+U Please edit my profile info
+U Modify my profile information
+U Update my profile information
+U Can I change my profile info
+U How do I change my profile info
+B 81
+U Edit background
+U Change the background
+U Modify the background
+U I want to change my background
+U Please edit my background image
+U Can I change my background
+U How do I change my background
+B 86
+U Edit theme color
+U Change the theme color
+U Modify the colors
+U I want to change my theme color
+U Please edit my theme
+U Can I change my theme color
+U How do I change my theme color
+B 87
+U See info
+U Show me my info
+U Show me my personal information
+U Check my information
+U See my personal information
+U Can you show me my personal info
+U What is my current personal info
+B 89
+
+U See you
+U Close assistant
+U Good bye
+U Close the assistant
+U See you later
+U Quit
+B 90
+
+U See all possible operations
+U What can I do
+U Please help me
+U Show all operations
+U Show all skills
+U Show every skill
+U Can you show me all system tasks
+U What are all available system tasks
+U Help
+B 91
+
+U Camera
+U I want to see myself
+U Change the face detection classifier
+U Open camera
+B 92
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// SKILLS WITH VARIABLES
+/////////////////////////////////////////////////////////////////////////////////////////
+U Route from <VARIABLE> to <VARIABLE>
+U Traject from <VARIABLE> to <VARIABLE>
+U Destination from <VARIABLE> to <VARIABLE>
+U Travel from <VARIABLE> to <VARIABLE>
+U I want to go from <VARIABLE> to <VARIABLE>
+U Can you show me the route from <VARIABLE> to <VARIABLE>
+U How do I get from <VARIABLE> to <VARIABLE>
+B 70
+U Map of <VARIABLE>
+U See the map of <VARIABLE>
+U Look at the map of <VARIABLE>
+U Open the map of <VARIABLE>
+U Can you show me the map of <VARIABLE>
+U How does <VARIABLE> look like
+B 72
+U Show me <VARIABLE> places in <VARIABLE>
+B 73
+
+U How is the weather in <VARIABLE>
+U What is the weather in <VARIABLE>
+U Change weather location to <VARIABLE>
+U Show me the weather in <VARIABLE>
+U Will it be nice weather in <VARIABLE>
+U Is there a storm coming in <VARIABLE>
+B 2
+
+U Set an alarm at <VARIABLE> with description <VARIABLE>
+U Add an alarm at <VARIABLE> with description <VARIABLE>
+U Can you set an alarm at <VARIABLE> for reminding me of <VARIABLE>
+U Can you remind me at <VARIABLE> of <VARIABLE>
+B 27
+U Set a timer for <VARIABLE>
+U Add a timer for <VARIABLE>
+U Set timer for <VARIABLE>
+U Set the timer for <VARIABLE>
+U Start a timer for <VARIABLE>
+U I want to set a timer for <VARIABLE>
+U Start a timer of <VARIABLE> minutes
+U Can you ring in <VARIABLE>
+U Can you wake me up in <VARIABLE>
+B 28
+U What time is it in <VARIABLE>
+U I want to know the time in <VARIABLE>
+U Clock in <VARIABLE>
+U How late is it in <VARIABLE>
+U How early is it in <VARIABLE>
+U What's the time in <VARIABLE> right now
+U Is it late in <VARIABLE> right now
+B 29
+U Add a clock for <VARIABLE>
+U Add a new clock for <VARIABLE>
+U Set a clock for <VARIABLE>
+U I want to add a clock for <VARIABLE>
+U Can you show me the time in <VARIABLE>
+U Can you add a clock for <VARIABLE>
+B 30
+U Watch from url <VARIABLE>
+U Watch video <VARIABLE>
+U Look at <VARIABLE>
+U Play from url <VARIABLE>
+U Open url <VARIABLE>
+U Can you play this <VARIABLE>
+U Can you show me this <VARIABLE>
+B 59
+U Add a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with description <VARIABLE>
+U I want to add a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with description <VARIABLE>
+U Set a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with text<VARIABLE>
+U On the <VARIABLE>, can you remind me of <VARIABLE> from <VARIABLE> to <VARIABLE>
+U Can you remind me of <VARIABLE> on the <VARIABLE> from <VARIABLE> to <VARIABLE>
+B 61
+
+U Change password to <VARIABLE>
+U Set my password to <VARIABLE>
+U Modify password to <VARIABLE>
+U Swap password to <VARIABLE>
+U I want to change my password to <VARIABLE>
+U Please edit my password info to <VARIABLE>
+B 80
+U Change city to <VARIABLE>
+U Modify my location to <VARIABLE>
+U Update my location to <VARIABLE>
+U I want to change my city to <VARIABLE>
+U Please edit my city info to <VARIABLE>
+U Can you change my city to <VARIABLE>
+B 82
+U Change country to <VARIABLE>
+U Modify my country to <VARIABLE>
+U Update my country to <VARIABLE>
+U I want to change my country to <VARIABLE>
+U Please edit my country info to <VARIABLE>
+U Can you change my country to <VARIABLE>
+B 83
+U Change age to <VARIABLE>
+U Modify my age to <VARIABLE>
+U I want to change my age to <VARIABLE>
+U Please edit my age info to <VARIABLE>
+U Can you change my age to <VARIABLE>
+B 84
+U Change profession to <VARIABLE>
+U Modify my profession to <VARIABLE>
+U I want to change my profession to <VARIABLE>
+U Please edit my profession info to <VARIABLE>
+U Can you change my profession to <VARIABLE>
+B 85
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// NEW SKILLS ADDED (WITH AND WITHOUT VARIABLES)
+/////////////////////////////////////////////////////////////////////////////////////////
+U display the skill editor
+U get the skill editor
+U see the skill editor
+B 31
+U Add an alarm for <VARIABLE> with <VARIABLE>
+B 27
+U rule editor
+B 32

@@ -1,0 +1,5 @@
+- the one given (with the date etc.)
+- one for the weather in Maastricht depending on the day and the time
+- skill that gives to the student its schedule for a certain day
+- skill working with google maps (for routing, restaurants ...)
+- ...

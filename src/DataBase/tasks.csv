@@ -1,0 +1,48 @@
+Weather,1,How is the weather here,0,is#0.8,give#0.1,check#0.1,a#0,weather#0.8,today#0.1,temperature#0.1,a#0
+Weather,2,Weather in <VARIABLE>,1,is#0.8,show#0.1,give#0.1,a#0,weather#0.8,location#0.1,temperature#0.1,a#0
+Schedule,10,What is my next lecture,0,is#0.2,have#0.2,next#0.6,a#0,lecture#0.9,today#0.1,a#0,a#0
+Schedule,11,What are my lectures this week,0,are#0.4,have#0.6,a#0,a#0,lecture#0.7,week#0.2,planning#0.1,a#0
+Schedule,12,What are my lectures this month,0,are#0.4,have#0.6,a#0,a#0,lecture#0.7,month#0.3,a#0,a#0
+Clock App,14,Display the alarm skill,0,display#0.2,open#0.3,get#0.2,set#0.2,alarm#0.9,a#0,a#0,a#0
+Clock App,15,Display the clock skill,0,display#0.2,show#0.2,is#0.4,open#0.1,clock#0.6,time#0.4,a#0,a#0
+Clock App,16,What are the time-zones I can add to the clock,0,are#0.4,can#0.3,look#0.2,a#0,time-zone#0.7,time-zones#0.4,clock#0.1,a#0
+Clock App,17,Display the timer skill,0,display#0.1,see#0.1,open#0.3,show#0.3,timer#0.9,a#0,a#0,a#0
+Clock App,18,Start the timer,0,start#0.9,begin#0.1,launch#0.1,a#0,timer#0.9,a#0,a#0,a#0
+Clock App,19,Pause the timer,0,pause#0.9,set#0.1,a#0,a#0,timer#0.9,a#0,a#0,a#0
+Clock App,20,Resume the timer,0,resume#0.9,restart#0.1,a#0,a#0,timer#0.9,a#0,a#0,a#0
+Clock App,21,Cancel the timer,0,cancel#0.9,undo#0.1,a#0,a#0,timer#0.9,a#0,a#0,a#0
+Clock App,22,Display the stopwatch skill,0,display#0.2,show#0.3,open#0.3,a#0,stopwatch#0.9,a#0,a#0,a#0
+Clock App,23,Start the stopwatch,0,start#0.7,set#0.1,launch#0.1,begin#0.1,stopwatch#0.9,a#0,a#0,a#0
+Clock App,24,Pause the stopwatch,0,pause#0.8,set#0.1,stop#0.1,a#0,stopwatch#0.9,a#0,a#0,a#0
+Clock App,25,Lap the stopwatch,0,lap#0.7,tour#0.1,a#0,a#0,stopwatch#0.9,a#0,a#0,a#0
+Clock App,26,Reset the stopwatch,0,reset#0.7,cancel#0.2,stop#0.1,a#0,stopwatch#0.9,a#0,a#0,a#0
+Clock App,27,Set an alarm at <VARIABLE> with description <VARIABLE>,2,set#0.6,add#0.2,a#0,a#0,alarm#0.8,description#0.2,a#0,a#0
+Clock App,28,Set a timer for <VARIABLE>,1,set#0.5,add#0.2,start#0.3,a#0,timer#0.9,a#0,a#0,a#0
+Clock App,29,What time is it in <VARIABLE>,1,is#0.6,want#0.1,early#0.1,late#0.1,time#0.7,clock#0.3,a#0,a#0
+Clock App,30,Add a clock for <VARIABLE>,1,add#0.8,set#0.1,want#0.1,a#0,clock#0.9,a#0,a#0,a#0
+Skill Editor,31,Add a skill,0,edit#0.7,change#0.2,modify#0.1,a#0,skill#0.8,editor#0.2,a#0,a#0
+Skill Editor,32,Create a new rule,0,create#0.3,add#0.7,a#0,a#0,rule#0.7,skill#0.3,a#0,a#0
+Skill Editor,33,Edit a skill,0,edit#0.7,change#0.2,modify#0.1,a#0,skill#0.8,editor#0.2,a#0,a#0
+Skill Editor,34,Edit a rule,0,change#0.5,modify#0.2,edit#0.2,a#0,rule#0.7,skill#0.2,production#0.1,a#0
+Music Player,50,Listen to music/video,0,listen#0.5,watch#0.2,play#0.2,put#0.1,music#0.4,video#0.4,song#0.1,movie#0.1
+Music Player,51,Change music/video,0,change#0.6,skip#0.2,next#0.1,previous#0.1,music#0.4,video#0.4,song#0.1,movie#0.1
+Music Player,52,Pause music/video,0,pause#0.8,want#0.1,a#0,a#0,music#0.4,video#0.4,song#0.1,movie#0.1
+Music Player,53,Stop music/video,0,stop#0.8,want#0.1,end#0.1,a#0,music#0.4,video#0.4,song#0.1,movie#0.1
+Music Player,59,Watch from url <VARIABLE>,1,watch#0.2,play#0.2,open#0.2,look#0.1,url#0.8,internet#0.1,google#0.1,a#0
+Calendar,60,Display the calendar skill,0,display#0.3,open#0.2,show#0.1,see#0.1,calendar#0.9,reminder#0.1,a#0,a#0
+Calendar,61,Add a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with description <VARIABLE>,4,add#0.5,want#0.1,set#0.1,a#0,reminder#0.8,description#0.1,text#0.1,a#0
+Google,71,Make a research on google,0,research#0.8,open#0.2,a#0,a#0,google#0.9,a#0,a#0,a#0
+Map,70,Route from <VARIABLE> to <VARIABLE>,2,route#0.5,travel#0.4,go#0.1,a#0,destination#0.5,route#0.2,traject#0.3,a#0
+Map,72,Map of <VARIABLE>,1,see#0.5,look#0.3,open#0.2,a#0,map#0.9,a#0,a#0,a#0
+Profile Edit,80,Change my password to <VARIABLE>,1,change#0.2,modify#0.2,swap#0.2,set#0.2,password#0.9,info#0.1,a#0,a#0
+Profile Edit,81,Change my profile info,0,change#0.2,modify#0.2,update#0.2,set#0.2,profile#0.5,personal#0.2,information#0.2,info#0.1
+Profile Edit,82,Change my city to <VARIABLE>,1,update#0.2,modify#0.2,change#0.2,edit#0.2,city#0.6,location#0.3,information#0.1,a#0
+Profile Edit,83,Change my country to <VARIABLE>,1,change#0.2,update#0.2,edit#0.2,modify#0.1,country#0.6,location#0.3,information#0.1,a#0
+Profile Edit,84,Change my age to <VARIABLE>,1,change#0.2,edit#0.2,update#0.2,modify#0.2,age#0.9,info#0.1,a#0,a#0
+Profile Edit,85,Change my profession to <VARIABLE>,1,change#0.3,modify#0.2,update#0.2,a#0,profession#0.9,job#0.1,a#0,a#0
+Profile Edit,86,Edit the background,0,edit#0.2,change#0.2,modify#0.1,edit#0.2,background#0.8,image#0.1,a#0,a#0
+Profile Edit,87,Edit the theme color,0,edit#0.2,change#0.2,modify#0.1,a#0,color#0.6,colors#0.2,theme#0.2,a#0
+Profile Edit,89,See my personal info,0,see#0.3,show#0.2,check#0.1,a#0,info#0.4,information#0.1,personal#0.3,a#0
+System,90,Bye/Leave,0,see#0.1,close#0.3,a#0,a#0,bye#0.7,assistant#0.1,a#0,a#0
+System,91,See all possible operations,0,see#0.6,help#0.2,can#0.2,show#0.3,operations#0.5,skills#0.3,skill#0.2,a#0
+System,92,See camera,0,see#0.6,open#0.4,a#0,a#0,camera#0.9,face#0.1,detection#0.1,a#0

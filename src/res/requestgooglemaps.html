@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <style type="text/css">
+      #map {
+        height: 100%;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      let map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById("map"), {
+          center: { lat: 39.0474731, lng: -95.6764448 },
+          zoom: 18,
+          mapTypeId: 'satellite',
+        });
+      }
+    </script>
+</head>
+<body>
+<div id="map"></div>
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxxcJvhBUP-fFzH2i4oIIPAEVHPfkxDw8&callback=initMap&libraries=&v=weekly"
+        async
+></script>
+</body>
+</html>

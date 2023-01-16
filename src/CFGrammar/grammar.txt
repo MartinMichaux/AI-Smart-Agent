@@ -1,0 +1,211 @@
+S -> Sk_N # 0.08
+S -> Sk_N FW # 0.08
+S -> Sk_N FWW # 0.08
+S -> NB # 0.08
+S -> VBN # 0.08
+S -> WP Sk_N # 0.08
+S -> WP NP # 0.08
+S -> WP VBN # 0.08
+S -> WP VBZN # 0.09
+S -> Sk_N FWP # 0.09
+S -> Sk_N FWWP # 0.09
+S -> VBN FWWP # 0.09
+NP -> PPZ Sk_N # 0.14
+NP -> Det Sk_N # 0.14
+NP -> Prep Sk_N # 0.14
+NP -> Adj Sk_N # 0.14
+NP -> Det N # 0.14
+NP -> Prep N # 0.15
+NP -> Adj N # 0.15
+FWP -> Det FW # 0.33
+FWP -> Prep FW # 0.33
+FWP -> Adj FW # 0.34
+NPP -> PPZ NP # 0.5
+NPP -> PPZ NP # 0.5
+VBN -> VB Sk_N # 0.25
+VBN -> VB N # 0.25
+VBN -> VB NP # 0.25
+VBN -> VB NPP # 0.25
+VBZN -> VBZ Sk_N # 0.25
+VBZN -> VBZ N # 0.25
+VBZN -> VBZ NP # 0.25
+VBZN -> VBZ NPFW # 0.25
+NPFW -> NP FW  # 0.5
+NPFW -> NP FWP # 0.5
+FWW -> FW FW  # 1
+FWWP -> FWP FWP  # 1
+Sk_N -> Weather_word # 0.12
+Sk_N -> Map_word # 0.12
+Sk_N -> Route_word # 0.13
+Sk_N -> Alarm_word # 0.13
+Sk_N -> Timer_word # 0.12
+Sk_N -> Calendar_word  # 0.12
+Sk_N -> Media_word # 0.13
+Sk_N -> Skilleditor_word # 0.13
+WP -> what # 0.25
+WP -> when # 0.25
+WP -> where # 0.25
+WP -> how # 0.25
+WP -> which # 0.18
+WP -> what's # 0.18
+VBZ -> is # 0.34
+VBZ -> are # 0.33
+VBZ -> am # 0.33
+PPZ -> i # 0.16
+PPZ -> me # 0.16
+PPZ -> my # 0.17
+PPZ -> you # 0.17
+PPZ -> your # 0.17
+PPZ -> it # 0.17
+Det -> a # 0.15
+Det -> an # 0.15
+Det -> the # 0.14
+Det -> this # 0.14
+Det -> that # 0.14
+Det -> these # 0.14
+Det -> those # 0.14
+Prep -> for # 0.12
+Prep -> on # 0.11
+Prep -> over # 0.11
+Prep -> at # 0.11
+Prep -> in # 0.11
+Prep -> from # 0.11
+Prep -> to # 0.11
+Prep -> of # 0.11
+Prep -> all # 0.11
+Prep -> every # 0.11
+Prep -> by # 0.11
+VB -> have # 0.04
+VB -> can # 0.04
+VB -> need # 0.04
+VB -> do # 0.04
+VB -> show # 0.04
+VB -> open # 0.04
+VB -> change # 0.04
+VB -> edit # 0.04
+VB -> like # 0.04
+VB -> give # 0.04
+VB -> look # 0.04
+VB -> undo # 0.04
+VB -> will # 0.04
+VB -> modify # 0.04
+VB -> cancel # 0.04
+VB -> search # 0.04
+VB -> lookup # 0.04
+VB -> browse # 0.04
+VB -> check # 0.04
+VB -> see # 0.04
+VB -> set # 0.04
+VB -> get # 0.04
+VB -> restart # 0.04
+VB -> reset # 0.04
+VB -> add # 0.04
+VB -> start # 0.03
+VB -> listen # 0.03
+VB -> play # 0.03
+VB -> watch # 0.03
+VB -> pause # 0.03
+VB -> stop # 0.03
+VB -> resume # 0.03
+VB -> go # 0.03
+VB -> want # 0.03
+VB -> launch # 0.03
+VB -> tell # 0.03
+VB -> display # 0.03
+Adj -> next # 0.2
+Adj -> later # 0.2
+Adj -> new # 0.2
+Adj -> good # 0.2
+Adj -> possible # 0.2
+Adj -> late # 0.2
+Adj -> beautiful # 0.2
+N -> rule # 0.05
+N -> operations # 0.05
+N -> help # 0.05
+N -> password # 0.05
+N -> country # 0.05
+N -> city # 0.05
+N -> camera # 0.05
+N -> app # 0.05
+N -> face # 0.05
+N -> areas # 0.05
+N -> location # 0.05
+N -> course # 0.05
+N -> courses # 0.05
+N -> planning # 0.05
+N -> age # 0.05
+N -> lap # 0.05
+N -> month # 0.05
+N -> week # 0.05
+N -> time-zone # 0.05
+N -> time-zones # 0.05
+N -> class # 0.05
+N -> classes # 0.05
+N -> umbrella # 0.05
+N -> ids # 0.05
+N -> personal # 0.05
+N -> info # 0.05
+N -> profession # 0.04
+N -> background # 0.04
+N -> theme # 0.04
+N -> color # 0.04
+N -> url # 0.04
+FW -> maastricht # 0.2
+FW -> amsterdam # 0.2
+FW -> please # 0.2
+FW -> begin # 0.2
+Weather_word -> weather # 0.06
+Weather_word -> temperature # 0.06
+Weather_word -> climate # 0.06
+Weather_word -> clima # 0.07
+Weather_word -> sun # 0.07
+Weather_word -> sunny # 0.06
+Weather_word -> rain # 0.06
+Weather_word -> rainy # 0.06
+Weather_word -> snow # 0.07
+Weather_word -> snowy # 0.06
+Weather_word -> storm # 0.06
+Weather_word -> stormy # 0.06
+Weather_word -> thunder # 0.07
+Weather_word -> thundery # 0.06
+Weather_word -> thunderstorm # 0.06
+Weather_word -> aridity # 0.06
+Weather_word -> humidity # 0.07
+Map_word -> map # 0.25
+Map_word -> card # 0.25
+Map_word -> atlas # 0.25
+Map_word -> globe # 0.25
+Route_word -> route # 0.25
+Route_word -> navigation # 0.25
+Route_word -> itinerary # 0.25
+Route_word -> way # 0.25
+Alarm_word -> alarm # 0.33
+Alarm_word -> alarms # 0.33
+Alarm_word -> alarmclock # 0.33
+Alarm_word -> alarwatch # 0.34
+Clock_word -> time # 0.2
+Clock_word -> zones # 0.2
+Clock_word -> clock # 0.2
+Clock_word -> watchclock # 0.2
+Clock_word -> o'clock # 0.2
+Clock_word -> oclock # 0.2
+Timer_word -> timer # 0.5
+Timer_word -> ticker # 0.5
+Stopwatch_word -> stopwatch # 0.5
+Stopwatch_word -> timekeeper # 0.5
+Calendar_word -> calendar # 0.25
+Calendar_word -> schedule # 0.25
+Calendar_word -> timetable # 0.25
+Calendar_word -> plan # 0.25
+Lecture_word -> lecture # 0.25
+Lecture_word -> lectures # 0.25
+Lecture_word -> university # 0.25
+Lecture_word -> school # 0.25
+Media_word -> music # 0.33
+Media_word -> song # 0.33
+Media_word -> video # 0.34
+Google_word -> google # 0.5
+Google_word -> browser # 0.5
+Skilleditor_word -> skill # 0.33
+Skilleditor_word -> skilleditor # 0.33
+Skilleditor_word -> editor # 0.33

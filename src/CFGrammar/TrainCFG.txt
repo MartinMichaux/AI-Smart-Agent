@@ -1,0 +1,299 @@
+1,How is the weather
+1,What is the weather like
+1,Check the weather
+1,Give how the weather is
+1,What is the weather today
+1,What is the temperature
+1,Will it rain
+1,Do I need an umbrella today
+10,My next lecture
+10,When do I have my next lecture
+10,What is my next Lecture
+10,Which lecture do I have today
+10,Which is my next class
+10,What course do I have next
+11,What are my lectures this week
+11,Which lecture do I have this week
+11,My lectures this week
+11,What do I have this week
+11,This week planning
+11,What is my schedule for this week
+11,What classes do I have this week
+12,My lectures this month
+12,This month planning
+12,What do I have this month
+12,What are my lectures this month
+12,Which lecture do I have this month
+12,What is my schedule for this month
+12,What classes do I have this month
+14,Set an alarm
+14,Get my alarm
+14,Get the alarm
+14,See the alarm
+14,Add an alarm
+14,Show me the alarm
+14,Open alarm app
+14,Can you set an alarm
+14,What are my current alarms
+15,What time is it
+15,Show me the clock
+15,What's the time
+15,Get the clock
+15,See the clock
+15,Add a clock
+15,Open the clock app
+15,What time is it
+15,How late is it
+16,What are the time-zone IDs
+16,What time-zones can I add to the clock
+16,What areas can I add to the clock
+16,Can I see the possible time-zones
+16,Look at the time-zones
+16,What are the time-zones
+16,Tell me every time-zones
+16,Can you show me all avalable time-zones
+16,What time zones do you cover
+17,Set a timer
+17,Get the timer
+17,See the timer
+17,Add a timer
+17,Show me the timer
+17,Open the timer app
+17,Can you show me my timer
+17,Can I set a timer
+18,Start timer
+18,Begin a timer
+18,I want to begin a timer
+18,Launch the timer
+18,Can you start a timer
+19,I want to pause the timer
+19,Please pause the timer
+19,Pause timer
+19,Set timer on pause
+19,Can you pause the timer
+20,I want to resume the timer
+20,Please resume the timer
+20,Resume timer
+20,Restart timer
+20,Can you resume the timer
+21,Cancel timer
+21,Undo the timer
+21,I want to cancel the timer
+21,Please cancel the timer
+21,Can you cancel the timer
+22,Get the stopwatch
+22,See the stopwatch
+22,Add a stopwatch
+22,Show me the stopwatch
+22,Open the stopwatch
+22,Can you show me the stopwatch
+22,Do you have a stopwatch ready
+23,Set a stopwatch
+23,Start a stopwatch
+23,Start the stopwatch
+23,Set the stopwatch
+23,Start stopwatch
+23,Launch stopwatch
+23,Begin a stopwatch
+23,I want to begin a stopwatch
+23,Can you start the stopwatch
+24,Can you pause the stopwatch
+24,Pause stopwatch
+24,Set stopwatch on pause
+24,I want to pause the stopwatch
+24,Please pause the stopwatch
+25,can you lap the stopwatch
+25,Lap stopwatch
+25,Add tour to the stopwatch
+25,I want to lap the stopwatch
+25,Please lap the stopwatch
+26,Reset stopwatch
+26,Cancel stopwatch
+26,I want to reset the stopwatch
+26,Please reset the stopwatch
+26,Can you reset the stopwatch
+31,Add a new skill
+31,Open the Skill editor
+31,Create a skill
+31,Can we create a skill
+32,New rule
+32,Add Rule
+32,I want to add rules
+32,Add skill
+32,Open the rule editor
+32,Can we create a new rule
+33,Edit skill
+33,Skill editor
+33,Change a skill
+33,Edit a skill
+33,Can we edit a skill
+34,Change rule
+34,Edit rule
+34,I want to modify rules
+34,Can we edit a rule
+40,Look up
+50,Listen to music
+50,Listen to a song
+50,Watch a video
+50,Play music
+50,Make me listen to music/video
+50,Put some music/video
+50,Can you play a video please
+50,Can you play a song please
+51,Change music
+51,I want to change the music/video
+51,Please change the music/video
+51,Skip music/video
+51,Play next music/video
+51,Play previous music/video
+51,Can you play something else
+51,Can you play another song
+52,Pause music
+52,I want to pause the music/video
+52,Please pause the music/video
+52,Can you pause please
+53,Stop music
+53,I want to stop the music/video
+53,Please stop the music/video
+53,End the music/video
+53,Can you stop playing
+60,Calendar
+60,See the calendar
+60,Add a reminder
+60,Open the calendar
+60,Show me my calendar
+60,Can you show me my Calendar
+60,What's in my calendar
+71,Research
+71,Open google
+81,Change my personal info
+81,I want to change my profile info
+81,Please edit my profile info
+81,Modify my profile information
+81,Update my profile information
+81,Can I change my profile info
+81,How do I change my profile info
+86,Edit background
+86,Change the background
+86,Modify the background
+86,I want to change my background
+86,Please edit my background image
+86,Can I change my background
+86,How do I change my background
+87,Edit theme color
+87,Change the theme color
+87,Modify the colors
+87,I want to change my theme color
+87,Please edit my theme
+87,Can I change my theme color
+87,How do I change my theme color
+89,See my info
+89,Show me my info
+89,Show me my personal information
+89,Check my information
+89,See my personal information
+89,Can you show me my personal info
+89,What is my current personal info
+90,See you
+90,Close assistant
+90,Good bye
+90,Close the assistant
+90,See you later
+91,See all possible operations
+91,What can I do
+91,Please help me
+91,Show all operations
+91,Show all skills
+91,Show every skill
+91,Can you show me all system tasks
+91,What are all available system tasks
+92,See camera
+92,I want to see myself
+92,Change the face detection classifier
+92,Open camera
+70,Route from <VARIABLE> to <VARIABLE>
+70,Traject from <VARIABLE> to <VARIABLE>
+70,Destination from <VARIABLE> to <VARIABLE>
+70,Travel from <VARIABLE> to <VARIABLE>
+70,I want to go from <VARIABLE> to <VARIABLE>
+70,Can you show me the route from <VARIABLE> to <VARIABLE>
+70,How do I get from <VARIABLE> to <VARIABLE>
+72,Map of <VARIABLE>
+72,See the map of <VARIABLE>
+72,Look at the map of <VARIABLE>
+72,Open the map of <VARIABLE>
+72,Can you show me the map of <VARIABLE>
+72,How does <VARIABLE> look like
+73,Show me <VARIABLE> places in <VARIABLE>
+2,How is the weather in <VARIABLE>
+2,What is the weather in <VARIABLE>
+2,Change weather location to <VARIABLE>
+2,Show me the weather in <VARIABLE>
+2,Will it be nice weather in <VARIABLE>
+2,Is there a storm coming in <VARIABLE>
+27,Set an alarm at <VARIABLE> with description <VARIABLE>
+27,Add an alarm at <VARIABLE> with description <VARIABLE>
+27,Can you set an alarm at <VARIABLE> for reminding me of <VARIABLE>
+27,Can you remind me at <VARIABLE> of <VARIABLE>
+28,Set a timer for <VARIABLE>
+28,Add a timer for <VARIABLE>
+28,Set timer for <VARIABLE>
+28,Set the timer for <VARIABLE>
+28,Start a timer for <VARIABLE>
+28,I want to set a timer for <VARIABLE>
+28,Start a timer of <VARIABLE> minutes
+28,Can you ring in <VARIABLE>
+28,Can you wake me up in <VARIABLE>
+29,What time is it in <VARIABLE>
+29,I want to know the time in <VARIABLE>
+29,Clock in <VARIABLE>
+29,How late is it in <VARIABLE>
+29,How early is it in <VARIABLE>
+29,What's the time in <VARIABLE> right now
+29,Is it late in <VARIABLE> right now
+30,Add a clock for <VARIABLE>
+30,Add a new clock for <VARIABLE>
+30,Set a clock for <VARIABLE>
+30,I want to add a clock for <VARIABLE>
+30,Can you show me the time in <VARIABLE>
+30,Can you add a clock for <VARIABLE>
+59,Watch from url <VARIABLE>
+59,Watch video <VARIABLE>
+59,Look at <VARIABLE>
+59,Play from url <VARIABLE>
+59,Open url <VARIABLE>
+59,Can you play this <VARIABLE>
+59,Can you show me this <VARIABLE>
+61,Add a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with description <VARIABLE>
+61,I want to add a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with description <VARIABLE>
+61,Set a reminder for the <VARIABLE> from <VARIABLE> to <VARIABLE> with text<VARIABLE>
+61,On the <VARIABLE>, can you remind me of <VARIABLE> from <VARIABLE> to <VARIABLE>
+61,Can you remind me of <VARIABLE> on the <VARIABLE> from <VARIABLE> to <VARIABLE>
+80,Change password to <VARIABLE>
+80,Set my password to <VARIABLE>
+80,Modify password to <VARIABLE>
+80,Swap password to <VARIABLE>
+80,I want to change my password to <VARIABLE>
+80,Please edit my password info to <VARIABLE>
+82,Change city to <VARIABLE>
+82,Modify my location to <VARIABLE>
+82,Update my location to <VARIABLE>
+82,I want to change my city to <VARIABLE>
+82,Please edit my city info to <VARIABLE>
+82,Can you change my city to <VARIABLE>
+83,Change country to <VARIABLE>
+83,Modify my country to <VARIABLE>
+83,Update my country to <VARIABLE>
+83,I want to change my country to <VARIABLE>
+83,Please edit my country info to <VARIABLE>
+83,Can you change my country to <VARIABLE>
+84,Change age to <VARIABLE>
+84,Modify my age to <VARIABLE>
+84,I want to change my age to <VARIABLE>
+84,Please edit my age info to <VARIABLE>
+84,Can you change my age to <VARIABLE>
+85,Change profession to <VARIABLE>
+85,Modify my profession to <VARIABLE>
+85,I want to change my profession to <VARIABLE>
+85,Please edit my profession info to <VARIABLE>
+85,Can you change my profession to <VARIABLE>
